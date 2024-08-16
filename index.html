@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone Layout</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js" defer></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <div class="burger-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
+          alt="YouTube Logo"
+          class="logo"
+        />
+        <span class="region">BD</span>
+      </div>
+      <div class="header-center">
+        <div class="search-bar-container">
+          <input type="text" class="search-input" placeholder="Search" />
+          <div class="tooltip">
+            <button class="search-button">
+              <box-icon name="search"></box-icon>
+            </button>
+            <span class="tooltip-text">Search</span>
+          </div>
+        </div>
+        <div class="tooltip">
+          <button class="voice-search-button">
+            <box-icon type="solid" name="microphone"></box-icon>
+          </button>
+          <span class="tooltip-text">Search with your voice</span>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="tooltip">
+          <button class="create-btn">
+            <box-icon name="video-plus"></box-icon>
+          </button>
+          <span class="tooltip-text">Create</span>
+        </div>
+
+        <div class="tooltip">
+          <button class="notifications-btn">
+            <box-icon name="bell"></box-icon>
+          </button>
+          <span class="tooltip-text">Notifications</span>
+        </div>
+        <div class="tooltip">
+          <button class="user">
+            <box-icon type="solid" name="user-circle"></box-icon>
+          </button>
+          <span class="tooltip-text">User</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="sidebar">
+      <div class="section">
+        <a href="#"><box-icon name="home"></box-icon> Home</a>
+        <a href="#"><box-icon name="movie"></box-icon> Shorts</a>
+        <a href="#"><box-icon name="slideshow"></box-icon> Subscriptions</a>
+      </div>
+
+      <hr />
+
+      <div class="section">
+        <h4>You</h4>
+        <a href="#"><box-icon name="user"></box-icon> Your channel</a>
+        <a href="#"><box-icon name="history"></box-icon> History</a>
+        <a href="#"><box-icon name="list-ul"></box-icon> Playlists</a>
+        <a href="#"><box-icon name="video"></box-icon> Your videos</a>
+        <a href="#"><box-icon name="podcast"></box-icon> Your podcasts</a>
+        <a href="#"><box-icon name="time"></box-icon> Watch later</a>
+        <a href="#"><box-icon name="like"></box-icon> Liked videos</a>
+        <a href="#"><box-icon name="download"></box-icon> Downloads</a>
+        <a href="#"><box-icon name="cut"></box-icon> Your clips</a>
+      </div>
+
+      <hr />
+
+      <div class="section">
+        <h4>Subscriptions</h4>
+        <a href="#"><box-icon name="music"></box-icon> 90's Gaane</a>
+        <a href="#"><box-icon name="news"></box-icon> ABC Learning English</a>
+        <a href="#"><box-icon name="news"></box-icon> ABC News</a>
+        <a href="#"><box-icon name="news"></box-icon> Al Jazeera English</a>
+        <a href="#"><box-icon name="music"></box-icon> Alan Walker</a>
+        <a href="#"><box-icon name="music"></box-icon> Anand Audio</a>
+        <a href="#"><box-icon name="news"></box-icon> ARY Digital HD</a>
+        <a href="#"
+          ><box-icon name="dots-horizontal-rounded"></box-icon> Show more</a
+        >
+      </div>
+
+      <hr />
+
+      <div class="section">
+        <h4>Explore</h4>
+        <a href="#"><box-icon name="trending-up"></box-icon> Trending</a>
+        <a href="#"><box-icon name="music"></box-icon> Music</a>
+        <a href="#"><box-icon name="joystick"></box-icon> Gaming</a>
+        <a href="#"><box-icon name="trophy"></box-icon> Sports</a>
+      </div>
+
+      <hr />
+
+      <div class="section">
+        <h4>More from YouTube</h4>
+        <a href="#"><box-icon name="crown"></box-icon> YouTube Premium</a>
+        <a href="#"
+          ><box-icon type="solid" name="video-plus"></box-icon> YouTube
+          Studio</a
+        >
+        <a href="#"><box-icon name="music"></box-icon> YouTube Music</a>
+        <a href="#"><box-icon name="child"></box-icon> YouTube Kids</a>
+      </div>
+
+      <hr />
+
+      <div class="section">
+        <a href="#"><box-icon name="cog"></box-icon> Settings</a>
+        <a href="#"><box-icon name="error"></box-icon> Report history</a>
+        <a href="#"><box-icon name="help-circle"></box-icon> Help</a>
+        <a href="#"
+          ><box-icon name="message-square-dots"></box-icon> Send feedback</a
+        >
+      </div>
+
+      <hr />
+
+      <div class="section footer">
+        <div class="footer-grid">
+          <div><a href="#">About</a></div>
+          <div><a href="#">Press</a></div>
+          <div><a href="#">Copyright</a></div>
+          <div><a href="#">Contact us</a></div>
+          <div><a href="#">Creators</a></div>
+          <div><a href="#">Advertise</a></div>
+          <div><a href="#">Developers</a></div>
+          <div><a href="#">Terms</a></div>
+          <div><a href="#">Privacy</a></div>
+          <div><a href="#">Policy & Safety</a></div>
+          <div><a href="#">How YouTube works</a></div>
+          <div><a href="#">Test new features</a></div>
+        </div>
+        <p>© 2024 Google LLC</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="suggestions-bar">
+        <a href="#" class="active">All</a>
+        <a href="#">News</a>
+        <a href="#">Music</a>
+        <a href="#">Mixes</a>
+        <a href="#">JavaScript</a>
+        <a href="#">Cinema</a>
+        <a href="#">Live</a>
+        <a href="#">T-Series</a>
+        <a href="#">pop music</a>
+        <a href="#">Thrillers</a>
+        <a href="#">Cricket</a>
+        <a href="#">Cars</a>
+        <a href="#">News</a>
+        <a href="#">Music</a>
+        <a href="#">Mixes</a>
+        <a href="#">JavaScript</a>
+        <a href="#">Tamil Cinema</a>
+        <a href="#">Live</a>
+        <a href="#">T-Series</a>
+        <a href="#">Indian pop music</a>
+        <a href="#">Thrillers</a>
+        <a href="#">Cricket</a>
+        <a href="#">Content</a>
+      </div>
+
+      <div class="video-grid" id="video-grid"></div>
+    </div>
+  </body>
+</html>
